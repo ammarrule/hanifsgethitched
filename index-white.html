@@ -1,0 +1,704 @@
+<!doctype HTML>
+<html>
+    <head>
+        <!-- custom font -->
+        <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="styles/custom.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    </head>
+    <body>
+
+        <!-- display mobile -->
+
+        <div class="container-fluid main-container-mobile d-lg-none d-sm-block">
+            
+            <!-- mobile hamburger nav -->
+            <nav class="navbar navbar-expand-lg navbar-light hamburger">
+                <a class="navbar-brand" href="#">Ammar & Mel Wedding</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" id="homeButton">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="coupleButton">Couple</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="crewButton">Crew</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="parentsButton">Parents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="venueButton">Venue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="itineraryButton">Itinerary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target=".registry-modal">Registry</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- mobile fixed image -->
+            <img class="ammar-mel-small" src="styles/images/ammar-mel.png">
+            
+            <!-- mobile text wrapper -->
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="top-text-wrapper-small">
+                        <h3>Ammar & Mel Wedding</h3>
+                        <p>4.20.2019</p>
+                        <a class="btn btn-primary btn-rsvp" data-toggle="modal" data-target=".bd-example-modal-lg">RSVP</a>
+                        <p id="timerSmall" class="timer-small hidden"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- mobile timer -->
+            <h1 id="timerMobile" class="timer-main-mobile"></h1>
+
+            <!-- mobile menu grid -->
+            <div id="menuGridMobile" class="menu-grid">
+                <div class="row">
+                    <div class="col-sm col-md menu-col">
+                        <a href="#" id="coupleGridButton"><h2>Couple</h2></a>
+                    </div>  
+                    <div class="col-sm col-md menu-col">
+                        <a href="#" id="crewGridButton"><h2>Crew</h2></a>
+                    </div>               
+                </div>
+                <div class="row">
+                    <div class="col-sm col-md menu-col">
+                        <a href="#" id="parentsGridButton"><h2>Parents</h2></a>
+                    </div>     
+                    <div class="col-sm col-md menu-col">
+                        <a href="#" id="venueGridButton"><h2>Venue</h2></a>
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-sm col-md menu-col">
+                        <a href="#" id="itineraryGridButton"><h2>Itinerary</a>
+                    </div> 
+                    <div class="col-sm col-md menu-col">
+                        <a href="#" id="registryGridButton" data-toggle="modal" data-target=".registry-modal"><h2>Registry</h2></a>
+                    </div>                
+                </div>
+            </div>
+
+            <!-- mobile couple -->
+            <div id="coupleMobile" class="row hidden">
+                <div class="col-lg-12 col-md-12">
+                    <img class="img-responsive img-thumbnail couple-img-mobile" src="styles/images/mel-ammar-main.jpg">
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <div class="couple-text">
+                        <p>Ammar and Melanie's love story began when they began dating in 2010 while both attending McMaster University. They were friends for 2 years prior to their relationship. They ended up falling in love and began dating. In 2012 they moved in together while both pursuing second degrees at McMaster. Their Hamilton apartment was full of love and laughter (corny), and upon completing their degrees they both moved back in with their parents in 2015 while they looked for work. They both started working at Manulife in 2016 and moved in together again, this time in downtown Toronto. It has been a whole new experience and their personalities mesh so well, it feels like they have always been together. They recently purchased their first home, a condo in Etobicoke and will be moving there at the end of November 2018. They look forward to what their life together has in store.<br/><br/>
+                        <span>Fun fact: Ammar proposed on Mel's birthday in 2017 using a recording made by personally for the couple by J-Roc (Jonathan Torrens). Any trailer park boys fans out there?</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- mobile crew -->
+                <div id="crewMobile" class="row crew-mobile hidden">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/hunter.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Bryan Hunter</span>, Best Man. Friends since university.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/greg.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Greg Chapman</span>, Best Man. Friends since university.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/ferg.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Bryan "Fergie" Ferguson</span>, Groomsman. Friends since elemntary school.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/gooch.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Will "Gooch" Gooch</span>, Groomsman. Friends since highschool.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/peter.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Peter Lewin</span>, Groomsman. Friends since elementary school.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/cole.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Cole Dosser</span>, Groomsman. Future bro in law.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/kendall.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Kendall Mckenzie</span>, Maid of Honor. Friends since highschool.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/jaucelynn.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Jaucelynn Toth</span>, Bridesmaid. Friends since university.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/crystel.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Crystel Maracle-Jamieson</span>, Bridesmaid. Friends since highschool.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/skye.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Skye Jenson</span>, Bridesmaid. Friends since highschool.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/ashley.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Ashley Waters</span>, Bridesmaid. Friends since highschool.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <img src="styles/images/kinza.png">
+                            </div>
+                            <div class="col-lg-8 crew-text">
+                                <p><span>Kinza Hanif</span>, Bridesmaid. Future sis in law.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- mobile parents -->
+                <div id="parentsMobile" class="parents-mobile hidden">
+                    <div class="row">
+                        <div class="col-lg-2 head-wrapper">
+                            <img class="parents-img-mobile" src="styles/images/mum.png">
+                        </div>
+                        <div class="col-lg-10 parents-text">
+                            <p><span>Ghalia Hanif</span>, Mother of the groom.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 head-wrapper">
+                            <img class="parents-img-mobile" src="styles/images/dad.png">
+                        </div>
+                        <div class="col-lg-10 parents-text">
+                            <p><span>Sajjad Hanif</span>, Father of the groom.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 head-wrapper">
+                            <img class="parents-img-mobile" src="styles/images/nancy.png">
+                        </div>
+                        <div class="col-lg-10 parents-text">
+                            <p><span>Nancy Dosser</span>, Mother of the bride.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 head-wrapper">
+                            <img class="parents-img-mobile" src="styles/images/craig.png">
+                        </div>
+                        <div class="col-lg-10 parents-text">
+                            <p><span>Craig Dosser</span>, Father of the bride.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 head-wrapper">
+                            <img class="parents-img-mobile" src="styles/images/sue.png">
+                        </div>
+                        <div class="col-lg-10 parents-text">
+                            <p><span>Sue Dosser</span>, Stepmother of the bride.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- mobile venue -->
+                <div id="venueMobile" class="hidden">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img class="venue-mobile-img img-thumbnail" src="styles/images/carmens.jpg">
+                                    
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <p class="white-text venue-info">Both the ceremony and reception will take place at Carmen's Banquet Hall located in Hamilton. This might be a bit of a commute for some of you. Please don't drink and drive - instead take advantage of the open bar and book a reservation at the attached hotel! Rooms fill up quickly - be sure to mention that you are booking for the Hanif Dosser wedding for a discount!</p>
+                            <a target="_blank" href="https://www.bestwestern.com/en_US/book/hamilton/hotel-rooms/best-western-premier-c-hotel-by-carmen-s/propertyCode.66107.html" class="btn reservation-btn">Book a Reservation</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 address-text">
+                            <p>1520 Stone Church Rd E</p>
+                            <p>Hamilton</p>
+                            <p>ON L8W 3P9</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="map" class="map" width="100%" height="500px"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- itinerary mobile -->
+                <div class="itinerary-mobile hidden" id="itineraryMobile">
+                    <div class="row">
+                        <div class="col-lg-6 itinerary-item">
+                            <p>4:00pm</p>
+                        </div>
+                        <div class="col-lg-6 itinerary-item">
+                            <p>Ceremony</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 itinerary-item">
+                            <p>4:30pm</p>
+                        </div>
+                        <div class="col-lg-6 itinerary-item">
+                            <p>Cocktail Hour</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 itinerary-item">
+                            <p>6:00pm</p>
+                        </div>
+                        <div class="col-lg-6 itinerary-item">
+                            <p>Dinner</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 itinerary-item">
+                            <p>When y'all done eating</p>
+                        </div>
+                        <div class="col-lg-6 itinerary-item">
+                            <p>Dancing</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+        </div><!-- container small -->
+
+        <!-- display desktop -->
+        
+        <div class="container-fluid main-container d-none d-lg-block">
+            <img class="ammar-mel" src="styles/images/ammar-mel.png">
+            <div class="top-text-wrapper">
+                <h3>Ammar & Mel Wedding</h3>
+                <p>4.20.2019</p>
+                <a class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">RSVP</a>
+                <p id="timerSmall" class="timer-small hidden"></p>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide d-none d-lg-block" data-interval="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active hidden"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="">The Couple</li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2">The Crew</li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3">The Parents</li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4">Venue</li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5">Itinerary</li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"><a class="" data-toggle="modal" data-target=".registry-modal">Registry</a></li>
+                </ol>
+                <div class="carousel-inner d-none d-lg-block">
+                    <div class="carousel-item active">
+                        <div class="vertical-spacer"></div>
+                        <h1 id="timer" class="timer-main"></h1>
+                    </div>
+                    <div class="carousel-item couple">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <img class="img-responsive img-thumbnail couple-img" src="styles/images/mel-ammar-main.jpg">
+                                </div>
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="couple-text"><p>Ammar and Melanie's love story began when they began dating in 2010 while both attending McMaster University. They were friends for 2 years prior to their relationship. They ended up falling in love and began dating. In 2012 they moved in together while both pursuing second degrees at McMaster. Their Hamilton apartment was full of love and laughter (corny), and upon completing their degrees they both moved back in with their parents in 2015 while they looked for work. They both started working at Manulife in 2016 and moved in together again, this time in downtown Toronto. It has been a whole new experience and their personalities mesh so well, it feels like they have always been together. They recently purchased their first home, a condo in Etobicoke and will be moving there at the end of November 2018. They look forward to what their life together has in store.<br/><br/>
+                        <span>Fun fact: Ammar proposed on Mel's birthday in 2017 using a recording made by personally for the couple by J-Roc (Jonathan Torrens). Any trailer park boys fans out there?</span></p></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item crew">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/hunter.png">
+                                    </div>
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Bryan Hunter</span>, Best Man. Friends since university.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/greg.png">
+                                    </div>
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Greg Chapman</span>, Best Man. Friends since university.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/ferg.png">
+                                    </div>
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Bryan "Fergie" Ferguson</span>, Groomsman. Friends since elemntary school.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/gooch.png">
+                                    </div>
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Will "Gooch" Gooch</span>, Groomsman. Friends since highschool.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/peter.png">
+                                    </div>
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Peter Lewin</span>, Groomsman. Friends since elementary school.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/cole.png">
+                                    </div>
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Cole Dosser</span>, Groomsman. Future bro in law.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="row">
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Kendall Mckenzie</span>, Maid of Honor. Friends since highschool.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/kendall.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Jaucelynn Toth</span>, Bridesmaid. Friends since university.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/jaucelynn.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Crystel Maracle-Jamieson</span>, Bridesmaid. Friends since highschool.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/crystel.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Skye Jenson</span>, Bridesmaid. Friends since highschool.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/skye.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Ashley Waters</span>, Bridesmaid. Friends since highschool.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/ashley.png">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-8 crew-text">
+                                        <p><span>Kinza Hanif</span>, Bridesmaid. Future sis in law.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img src="styles/images/kinza.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item parents">
+                        <div class="row">
+                            <div class="col-lg-2 head-wrapper">
+                                <img class="parents-img" src="styles/images/mum.png">
+                            </div>
+                            <div class="col-lg-10 parents-text">
+                                <p><span>Ghalia Hanif</span>, Mother of the groom.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 head-wrapper">
+                                <img class="parents-img" src="styles/images/dad.png">
+                            </div>
+                            <div class="col-lg-10 parents-text">
+                                <p><span>Sajjad Hanif</span>, Father of the groom.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 head-wrapper">
+                                <img class="parents-img" src="styles/images/nancy.png">
+                            </div>
+                            <div class="col-lg-10 parents-text">
+                                <p><span>Nancy Dosser</span>, Mother of the bride.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 head-wrapper">
+                                <img class="parents-img" src="styles/images/craig.png">
+                            </div>
+                            <div class="col-lg-10 parents-text">
+                                <p><span>Craig Dosser</span>, Father of the bride.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2 head-wrapper">
+                                <img class="parents-img" src="styles/images/sue.png">
+                            </div>
+                            <div class="col-lg-10 parents-text">
+                                <p><span>Sue Dosser</span>, Stepmother of the bride.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item venue">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img class="img-thumbnail" src="styles/images/carmens.jpg">
+                                
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <p class="white-text venue-info">Both the ceremony and reception will take place at Carmen's Banquet Hall located in Hamilton. This might be a bit of a commute for some of you. Please don't drink and drive - instead take advantage of the open bar and book a reservation at the attached hotel! Rooms fill up quickly - be sure to mention that you are booking for the Hanif Dosser wedding for a discount!</p>
+                                <a target="_blank" href="https://www.bestwestern.com/en_US/book/hamilton/hotel-rooms/best-western-premier-c-hotel-by-carmen-s/propertyCode.66107.html" class="btn reservation-btn">Book a Reservation</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 address-text">
+                                <p>1520 Stone Church Rd E</p>
+                                <p>Hamilton</p>
+                                <p>ON L8W 3P9</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <!--<div class="map" id="map" width="100%" height="500px"></div>-->
+                                <div width="100%" height="500px">
+                                    <a target="_blank" href="https://bit.ly/2Df6C9H"><img class="img-thumbnail" src="styles/images/map-temp.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item itinerary">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>4:00pm</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p>Ceremony</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>4:30pm</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p>Cocktail Hour</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>6:00pm</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p>Dinner</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p>When y'all done eating</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p>Dancing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev hidden" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next hidden" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Temporary Registry -->
+
+        <div class="registry-modal modal fade" tab-index="-1" role="dialog" aria-labelledby="registryModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <h2>Registry</h2>
+                    <h3>Registry coming soon in the new year!</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <h2>RSVP</h2>
+                   <form method="POST" action="mailer.php">
+                        <div class="form-group row">
+                            <label for="fullName" class="col-sm-2 col-form-label">Full Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="fullName" name="full_name" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <fieldset class="form-group">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Attending?</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="attending" id="attendingYes" value="attending">
+                                        <label class="form-check-label" for="attendingYes">
+                                            Yes, I will be attending!
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="attending" id="attendingNo" value="Not attending">
+                                        <label class="form-check-label" for="attendingNo">
+                                            No :'(
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset id="plus1Box" class="form-group hidden">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Have a +1?</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="plus1" id="plus1Yes" value="Plus 1 yes">
+                                        <label class="form-check-label" for="plus1Yes">
+                                            Yes! The more the merrier!
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="plus1" id="plus1No" value="Plus 1 no">
+                                        <label class="form-check-label" for="plus1No">
+                                            No, I fly solo.
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div id="plus1Name" class="form-group row hidden">
+                            <label for="plus1Name" class="col-sm-2 col-form-label">+ 1 Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="plus1_name" class="form-control" id="plus1Name" placeholder="+ 1 Full Name">
+                            </div>
+                        </div>
+                        <fieldset id="restrictions" class="form-group hidden">
+                            <div class="row">
+                                <legend class="col-form-label col-sm-2 pt-0">Dietary Restrictions?</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="dietary_restrictions" id="dietaryRestrictionsYes" value="Dietary Restrictions">
+                                        <label class="form-check-label" for="dietaryRestrictionsYes">
+                                            Yes
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="dietary_restrictions" id="dietaryRestrictionsNo" value="No Dietary Restrictions">
+                                        <label class="form-check-label" for="dietaryRestrictionsNo">
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div id="restrictionsDetails" class="form-group row hidden">
+                            <label for="dietaryRestrictionsListed" class="col-sm-2 col-form-label">Dietary Restrictions</label>
+                            <div class="col-sm-10">
+                                <textarea id="dietaryRestrictionsListed" class="form-control" rows="3" name="dietary_restrictions_listed"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="additionalComments" class="col-sm-2 col-form-label">Additional Comments?</label>
+                            <div class="col-sm-10">
+                                <textarea id="AdditionalComments" class="form-control" rows="3" name="additional_comments"></textarea>
+                            </div>
+                        </div>
+                        <p class="disclaimer">*Please note: While we love to watch the children run and play, this is an adults only kind of day!</p>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-primary btn-submit" name="submit">RSVP!</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAo1nYSFhMNooR-fb6MIlmfTDSz1q1TvMc&callback=initMap"
+    async defer></script>
+        <!-- bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+         <!-- custom js -->
+        <script type="text/javascript" src="scripts/custom.js"></script>
+    </body>
+</html>
